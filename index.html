@@ -54,17 +54,18 @@
     }
 
     h2 {
-      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-      font-size: 60px;
-      color: black;
-      margin-left: 10px;
+     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+      font-size: 70;
+      color: #FFFFFF;
+      margin: 18px 0px 0px 20px;
+      text-align: center;
     }
 
-     h3 {
-      color: #FFFFFF;
+    h3 {
+     color: #FFFFFF;
       font-size: 20px;
-      margin-left: 10px;
-      text-align: left;
+      margin: 0px;
+      text-align: center;
     }
 
     body {
@@ -73,16 +74,88 @@
     }
 
     p {
-      color: blue;
+      color: #000000;
+      font-size: 20;
+      text-align: center;
+    }
+    
+    #gametitle {
+      float: left;
+      width: 100%;
+      border-right: 1px solid #eeeeee;
+      margin-top: 30px;
+      padding-top: 0px;
+      background-image: url("backgroundgreen.png");
     }
 
-    #about {
-      margin-top: 40px;
+    #gaming {
+      margin-top: 20px;
       margin-left: 10px;
       height: 150px;
       float: left;
     }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      padding: 10px 10px 10px 10px;
+    }
   </style>
   <body>
+    <div id="top">
+      <div id="header">
+        <h1>
+          casslie's website!
+        </h1>
+        <div id="nav">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">GAMING</a></li>
+            <li><a href="">ABOUT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="gametitle">
+      <h2>
+      MY PC BUILD
+      </h2>
+      <h3>
+        <i>I built my own PC in 2020</i>
+      </h3>
+      <p>
+        View my parts list below!
+      </p>
+    </div>
+    <div id="gaming">
+      <table style="width:100%">
+        <tr>
+          <th>PC Part</th>
+          <th>Name</th>
+        </tr>
+        <tr>
+          <td>CPU</td>
+          <td>AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor</td>
+        </tr>
+        <tr>
+          <td>GPU</td>
+          <td>Asus GeForce RTX 3060 12 GB ROG STRIX GAMING OC Video Card</td>
+        </tr>
+        <tr>
+          <td>Motherboard</td>
+          <td>Asus TUF GAMING B550-PLUS (WI-FI) ATX AM4 Motherboard</td>
+        </tr>
+        <tr>
+          <td>RAM</td>
+          <td>Corsair Vengeance RGB Pro 32 GB (4 x 8 GB)</td>
+        </tr>
+        <tr>
+          <td>PSU</td>
+          <td>GAMDIAS KRATOS M1 B 750 W 80+ Gold Certified Semi-modular ATX Power Supply</td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
